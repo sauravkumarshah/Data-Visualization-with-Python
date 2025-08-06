@@ -13,6 +13,8 @@ def readTxt():
             
             data[dataName] = finalData
         
+    f.close()
+        
     return data
 
 txtVersionData = readTxt()
